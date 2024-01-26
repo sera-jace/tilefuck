@@ -26,9 +26,9 @@ window.onload = function() {
       tile.addEventListener("dragstart", dragStart);
       tile.addEventListener("dragover", dragOver);
       tile.addEventListener("dragenter", dragEnter);
-      tile.addEventListener("dragleave", dragLeave);
-      tile.addEventListener("drop", dragDrop);
-      tile.addEventListener("dragend", dragEnd);
+     //tile.addEventListener("dragleave", dragLeave);
+     //tile.addEventListener("drop", dragDrop);
+      //tile.addEventListener("dragend", dragEnd);
 
       document.getElementById("board"); console.log(tile);
 
