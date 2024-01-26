@@ -30,8 +30,8 @@ window.onload = function() {
      //tile.addEventListener("drop", dragDrop);
       //tile.addEventListener("dragend", dragEnd);
 
-      document.getElementById("board"); console.log(tile);
-
+ 
+  document.getElementById("board").append(tile); console.log(tile, r, c, tile.id, tile.src);
 
     }
   }
